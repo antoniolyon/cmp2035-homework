@@ -1,0 +1,23 @@
+body {
+
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	border: 4px double #000;
+	background-color: #D3D3D3}
+	
+	{background-color: #DCDCDC;
+	font-family: arial, verdana, helvetica;}
+h1  {
+	text-align: center;
+	position: fixed;
+	font-family: georgia, serif;
+	color: #FF1493;
+	font-size: 48pt}
+p {
+	color: #F0FFF0;
+	text-align: center;}
+h3{
+	text-align: center;
+
