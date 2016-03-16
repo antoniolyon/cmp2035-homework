@@ -95,13 +95,16 @@ header h2 {
 	color: #8000ff;
 	font-variant: small-caps;
 	font-weight: bolder;
-	font-family: helvetica;
+	
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 	padding-right: 10px;
 	text-align: center;
-	
+	@font-face {
+    font-family: 'digital'; /*a name to be used later*/
+    src: url(BALLSONTHERAMPAGE.ttf); /*URL to font*/
+}
 	}
 header {
 	padding-top: 20px;
