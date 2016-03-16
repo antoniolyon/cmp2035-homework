@@ -47,13 +47,13 @@ p { padding-bottom: 500px, no-repeat top center;
 	padding-right: 20px;
 	padding-left: 20px;
 	border: 20px;
-	font-family: "digital7", helvetica;
+	font-family: "larabie", helvetica;
 	margin-top: 0; 
 	text-align: justify;
 	}
 h3 { 
-	font-family: "barcode";
-    font-size: 100pt;
+	font-family: "digital7";
+    font-size: 50pt;
     padding-bottom: 500px, no-repeat top center; 
 	text-align: center;
 	letter-spacing: 1px; 
