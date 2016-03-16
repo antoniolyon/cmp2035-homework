@@ -22,35 +22,59 @@ body {
 	margin: 0; 
 	padding: 0;
 	}
+@font-face {
+    font-family: "digital";  
+    src: url("BALLSONTHERAMPAGE.ttf");
+    }
+@font-face {
+    font-family: "arcade";  
+    src: url("ARCADECLASSIC.TTF");
+    }
+@font-face {
+    font-family: "barcode";  
+    src: url("BarcodeFont.ttf");
+    }
+@font-face {
+    font-family: "digital7";  
+    src: url("digital-7.ttf");
+    }
+@font-face {
+    font-family: "larabie";  
+    src: url("larabiefont rg.ttf");
+     }
+
 p { padding-bottom: 500px, no-repeat top center; 
 	padding-right: 20px;
 	padding-left: 20px;
 	border: 20px;
-	font-family: helvetica;
+	font-family: "digital7", helvetica;
 	margin-top: 0; 
 	text-align: justify;
 	}
 h3 { 
-	padding-bottom: 500px, no-repeat top center; 
+	font-family: "barcode";
+    font-size: 100pt;
+    padding-bottom: 500px, no-repeat top center; 
 	text-align: center;
-	text-decoration: line-through
-	font: italic normal 1.4em helvetica, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 10px; 
 	margin-right: 10px;
 	color: #ff33ff;
 	}
 a:link { 
+    font-family: "digital7", helvetica;
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #99ff99;
 	}
 a:visited { 
+    font-family: "digital7", helvetica;
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #D4CDDC;
 	}
 a:hover, a:focus, a:active { 
+    font-family: "digital7", helvetica;
 	text-decoration: underline;
 	font-size: 30px; 
 	color: #cc99ff;
@@ -62,10 +86,11 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(https://33.media.tumblr.com/tumblr_mc7wvh6Fwk1qk6xfno7_400.gif) no-repeat top left; 
+	background: url(http://gph.is/16tbYs0) no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
+    opacity: 50%;
 	}
 
 .intro { 
@@ -74,7 +99,7 @@ abbr {
 	}
 
 header h1 { 
-	background-image: ;
+
 	background: transparent url(http://57.media.tumblr.com/b833293306a2222104b2227c39b25b2c/tumblr_o2t92i1LhI1rsdpaso1_500.gif) no-repeat top left;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -91,19 +116,20 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 { 
-	font-size: 50px;
+    font-family: "arcade", helvetica, sans-serif;
+    font-size: 100px;
 	color: #8000ff;
 	font-variant: small-caps;
 	font-weight: bolder;
 	
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
 	padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 	text-align: center;
-	@font-face {
-    font-family: 'digital'; /*a name to be used later*/
-    src: url(BALLSONTHERAMPAGE.ttf); /*URL to font*/
+
 }
 	}
 header {
@@ -144,7 +170,6 @@ footer a:link, footer a:visited {
 	position: absolute; 
 	top: 0; 
 	right: 0;
-	display: none;
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
