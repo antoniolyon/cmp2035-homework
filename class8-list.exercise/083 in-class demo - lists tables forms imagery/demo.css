@@ -1,0 +1,63 @@
+/* yes, this is meant to be empty */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic);
+
+body { font-family: 'Open Sans'}
+ul {
+    list-style-type: none;
+    list-style-type:  circle;
+    list-style-type:  disc;
+    list-style-type: square;
+  
+    list-style-image: url(checkmark.gif);
+    list-style-position: outside;
+}
+
+li {margin: 10px 0px 0px 0px;
+}
+ol{
+    list-style-type: lower-roman;
+    list-style-type: decimal-leading-zero;
+    list-style-type: upper-alpha;
+}
+table{width: 1000px}
+td {padding: 10px;
+vertical-align: top}
+th {display: none}
+.day {background-color: purple;
+    color: white;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+fieldset {
+    width: 1000px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding 20px;
+}
+legend {
+    background-color: #efefef;
+    border: 2px solid #000;
+    background-color: aqua;
+}
+input[type=text]{
+    border:  2px solid blue;
+}
+input[type=submit]{
+    background-color: red;
+}
+img {
+    /*width: 50px;
+    height 50px;*/
+    float: left;
+    margin-right: 15px;
+    
+    body {
+        background-image: url(flowers1.jpg);
+        /*background-repeat: no-repeat;*/
+        background-attachment: scroll;
+        ba
+    }
+    
+}
