@@ -16,8 +16,9 @@ h1 {
     align-content: center;
     margin-top: 200px;
     text-align: center; 
+    font-family: sans-serif; helvetica; 
 }
-h {
+h2 {
 				text-indent: -9999px;
 				width: 940px;
 				height: 130px;
@@ -42,3 +43,13 @@ h {
 				float: left;
 				width: 659px;
 				border-right: 1px solid #eeeeee;}
+h3 {text-align: center
+    
+}
+p {
+    text-align: center
+    
+}
+
+h4 {text-align: center}
+ul {text-align: center}
