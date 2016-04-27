@@ -1,0 +1,55 @@
+#background {
+    position: fixed; align-content: center
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    background-size: cover;
+}
+h1 {
+    align-content: center;
+    margin-top: 200px;
+    text-align: center; 
+    font-family: sans-serif; helvetica; 
+}
+h2 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: rgba(174, 172, 168, 0.54);
+				height: 40px;
+                margin-top: 200px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.courses {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+h3 {text-align: center
+    
+}
+p {
+    text-align: center
+    
+}
+
+h4 {text-align: center}
+ul {text-align: center}
