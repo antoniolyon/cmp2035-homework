@@ -416,11 +416,9 @@ footer {
 }
 
 .fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150%;
-    height: 150%;
+
+    width: 100%;
+
 }
 .div class{
     display:none
