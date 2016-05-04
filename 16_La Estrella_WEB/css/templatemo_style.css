@@ -47,6 +47,7 @@ body {
 }
 img {align-items: center}
 h6  {align-content: center}
+h5 {margin-left: -200px}
 /***** Typography *****/
 body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fira Sans';}
 b, strong, dt { font-weight: 400;}
@@ -176,7 +177,8 @@ nav.main-menu a:link, nav.main-menu a:hover, nav.main-menu a:focus, nav.main-men
     margin: 0 auto;
 }
 #templatemo_home h1 {
-    margin-top: 20vh;
+    margin-top: 35vh;
+    margin-left: -25vh;
     font: normal normal 400 70px/80px 'Fira Sans', sans-serif;
 }
 #templatemo_home h2 {
@@ -418,9 +420,11 @@ footer {
 .fullscreen-bg__video {
 
     width: 100%;
-
 }
 .div class{
     display:none
         
         .h1 {align-content: center}
+    h5{
+        
+    }
